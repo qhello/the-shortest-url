@@ -6,7 +6,7 @@ export default async (ctx: Context): Promise<void> => {
     const { shortId } = ctx.params
 
     // fetch decoded url from cache
-    const decodedUrl = CACHE[shortId]
+    const decodedUrl = CACHE.get(shortId, 'shortId')
 
     if (!decodedUrl) {
         ctx.status = 404
