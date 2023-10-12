@@ -7,6 +7,6 @@ const router = new Router()
 
 router.post('/encode', encode)
 
-router.get('/decode/:shortId', decode)
+router.post('/decode', decode)
 
 export default router
