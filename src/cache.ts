@@ -1,13 +1,15 @@
+import config from "./config";
+
 class Cache {
     private shortIdToUrl: { [shortId: string]: string };
     private urlToShortId: { [url: string]: string };
 
     constructor() {
         this.shortIdToUrl = {
-            "HvFkiINuAg2u": "https://www.google.com"  // Initial value for onboarding
+            [config.TEST_SHORT_ID]: config.TEST_URL  // Initial value for onboarding
         };
         this.urlToShortId = {
-            "https://www.google.com": "HvFkiINuAg2u"  // Initial value for onboarding
+            [config.TEST_URL]: config.TEST_SHORT_ID  // Initial value for onboarding
         };
     }
 
