@@ -1,0 +1,26 @@
+{
+  "name": "the-shortest-url-dhjeqa",
+  "version": "1.0.0",
+  "description": "Your assignment is to implement a URL shortening service using Node and any framework.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npx ts-node src/index.ts"
+  },
+  "engines": {
+    "node": ">=20.0.0 <21.0.0"
+  },
+  "engineStrict": true,
+  "author": "Quentin Hello",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.2"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.9",
+    "@types/koa__router": "^12.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
