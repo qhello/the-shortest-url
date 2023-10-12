@@ -1,8 +1,10 @@
 import Router from '@koa/router'
 
+import encode from './controllers/encode'
+
 const router = new Router()
 
-router.get('/encode', () => console.log('hello world!'))
+router.post('/encode', encode)
 router.get('/decode', () => console.log('hello world!'))
 
 export default router
