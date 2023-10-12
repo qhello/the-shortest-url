@@ -21,8 +21,6 @@ describe('Shorten URL endpoint', () => {
 
         const response = await handler().send({ url: invalidUrl });
 
-        console.log(response.body)
-
         expect(response.status).toBe(400);
     });
 
