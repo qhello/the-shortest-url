@@ -23,3 +23,7 @@ Run tests
 ```
 npm test
 ```
+
+## Documentation
+
+For endpoints payload examples, a Postman collection is publicly accessible at this url: https://documenter.getpostman.com/view/507654/2s9YR3cFNg

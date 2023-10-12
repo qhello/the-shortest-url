@@ -7,6 +7,6 @@ export default {
     APP_BASE_URL: APP_BASE_URL,
     APP_HOST: new URL(APP_BASE_URL).host,
     SHORT_ID_LENGTH: process.env.SHORT_ID_LENGTH ? parseInt(process.env.SHORT_ID_LENGTH) : 12,
-    TEST_SHORT_ID: process.env.TEST_SHORT_ID ?? "HvFkiINuAg2u",
+    TEST_SHORT_ID: process.env.TEST_SHORT_ID ?? "HvFkiIN",
     TEST_URL: process.env.TEST_URL ?? "https://www.google.com"
 }
