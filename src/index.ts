@@ -1,8 +1,8 @@
 import app from './app'
 
-const PORT = 8000
+import config from './config'
 
-app.listen(PORT)
+app.listen(config.APP_PORT)
 
 console.log(`Service 'api' launched! 🚀`)
-console.log(`Listening on port ${PORT}...`)
+console.log(`Listening on port ${config.APP_PORT}...`)
